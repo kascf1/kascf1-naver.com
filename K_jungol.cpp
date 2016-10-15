@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-//508 : Ãâ·Â - Çü¼ºÆò°¡5
+//508 : ì¶œë ¥ - í˜•ì„±í‰ê°€5
 //int main(void)
 //{
 //	cout << right << setw(15) << "seoul" ;
@@ -26,7 +26,7 @@ using namespace std;
 //	cout << right << setw(15) << "+29,774" << endl;
 //}
 
-//516 : ÀÔ·Â - ÀÚ°¡Áø´Ü8
+//516 : ì…ë ¥ - ìê°€ì§„ë‹¨8
 //int main(void)
 //{
 //	double float_1 = 0;
@@ -45,7 +45,7 @@ using namespace std;
 //	cout << a << endl;
 //}
 
-//519 :	¿¬»êÀÚ - ÀÚ°¡Áø´Ü2
+//519 :	ì—°ì‚°ì - ìê°€ì§„ë‹¨2
 
 //int main(void)
 //{
@@ -61,7 +61,7 @@ using namespace std;
 //	cout << a << " " << b << endl;
 //}
 
-//522 : ¿¬»êÀÚ - ÀÚ°¡Áø´Ü4
+//522 : ì—°ì‚°ì - ìê°€ì§„ë‹¨4
 //int main(void)
 //{
 //	int int_1 = 0;
@@ -74,7 +74,7 @@ using namespace std;
 //	cout << int_1 << " " << int_2 << " " << result << endl;
 //}
 
-//523 : ¿¬»êÀÚ - ÀÚ°¡Áø´Ü5
+//523 : ì—°ì‚°ì - ìê°€ì§„ë‹¨5
 //int main(void)
 //{
 //	int int_1 = 0;
@@ -86,3 +86,77 @@ using namespace std;
 //}
 
 //--------------------------------------------------------------- 2016/10/14
+
+//524 : ì—°ì‚°ì - ìê°€ì§„ë‹¨6
+//int main(void)
+//{
+//	int int_1 = 0;
+//	int int_2 = 0;
+//
+//	cin >> int_1 >> int_2;
+//	cout << int_1 << " > " << int_2 << " --- " <<(int_1 > int_2) << endl;
+//	cout << int_1 << " < " << int_2 << " --- " << (int_1 < int_2) << endl;
+//	cout << int_1 << " >= " << int_2 << " --- " << (int_1 >= int_2) << endl;
+//	cout << int_1 << " <= " << int_2 << " --- " << (int_1 <= int_2) << endl;
+//}
+
+//525 : ì—°ì‚°ì - ìê°€ì§„ë‹¨7
+//int main(void)
+//{
+//	int int_1 = 0;
+//	int int_2 = 0;
+//
+//	cin >> int_1 >> int_2;
+//	cout << (int_1 && int_2) << " " << (int_1 || int_2) << endl;
+//}
+
+//526 : ì—°ì‚°ì - ìê°€ì§„ë‹¨8
+//int main(void)
+//{
+//	int int_1 = 0;
+//	int int_2 = 0;
+//	int int_3 = 0;
+//
+//	cin >> int_1 >> int_2 >> int_3;
+//	cout << (int_1 > int_2, int_1 > int_3) << " " << (int_1 == int_2, int_1 == int_3) << endl;
+//}
+
+//527 : ì—°ì‚°ì - í˜•ì„±í‰ê°€1
+//int main(void)
+//{
+//	int int_n[4] = { 0, };
+//	int p_result = 0;
+//	double	a_result = 0;
+//
+//	for (int i = 0; i < 4; i++)
+//	{
+//		cin >> int_n[i];	
+//		p_result += int_n[i];
+//	}
+//
+//	a_result = p_result / 4;
+//	a_result *= 1000;
+//	a_result = (int)a_result;
+//	a_result /= 1000;
+//
+//	cout << "ì´ì  " << p_result << "ì " << endl;
+//	cout << "í‰ê·  " << a_result << "ì " << endl;
+//}
+
+//528 : ì—°ì‚°ì - í˜•ì„±í‰ê°€2
+//int main(void)
+//{
+//	int int_1;
+//	int int_2;
+//	double d_result;
+//
+//	cin >> int_1 >> int_2;
+//	d_result = int_1 / int_2;
+//	d_result *= 1000;
+//	d_result = (int)d_result;
+//	d_result /= 1000;
+//
+//	cout << int_1 << " / " << int_2 << " = "<< d_result << "..." << int_1 % int_2 << endl;
+//}
+
+//--------------------------------------------------------------------------------- 2016/10/15
