@@ -160,3 +160,85 @@ using namespace std;
 //}
 
 //--------------------------------------------------------------------------------- 2016/10/15
+
+//113 : 연산자 - 형성평가3
+//int main(void)
+//{
+//	int int_1 = 0;
+//	int int_2 = 0;
+//	int result = 0;
+//
+//	cin >> int_1 >> int_2;
+//
+//	int_1 += 5;
+//	int_2 *= 2;
+//	result = int_1 * int_2;
+//
+//	cout << "가로 = " << int_1 << endl;
+//	cout << "세로 = " << int_2 << endl;
+//	cout << "넓이 = " << result << endl;
+//}
+
+//114 : 연산자 - 형성평가4
+//int main(void)
+//{
+//	int int_1 = 0;
+//	int int_2 = 0;
+//
+//	cin >> int_1 >> int_2;
+//
+//	cout << ++int_1 << " " << int_2-- << endl;
+//	cout << int_1 << " " << int_2 << endl;
+//}
+
+//115 : 연산자 - 형성평가5
+//int main(void)
+//{
+//	int mh, mw = 0;
+//	int kh, kw = 0;
+//
+//	cout << "민수의 키와 몸무게 입력" << endl;
+//	cin >> mh >> mw;
+//	cout << "기영이의 키와 몸무게 입력" << endl;
+//	cin >> kh >> kw;
+//
+//	cout << "민수의 키와 몸무게 입력 기영이의 키와 몸무게 입력 " << (mh > kh && mw > kw) << endl;
+//}
+
+//526 : 디버깅 - 자가진단1
+//int main()
+//{
+//	double int_1 = 0;
+//	double int_2 = 0;
+//	double f_result = 0;
+//	int i_result = 0;
+//
+//	cin >> int_1 >> int_2;
+//
+//	f_result = int_1 * int_2;
+//	f_result = (int)f_result;
+//
+//	i_result = (int)int_1 * (int)int_2;
+//
+//	cout << f_result << " " << i_result << endl;
+//}
+
+//527 : 디버깅 - 자가진단2
+//int main(void)
+//{
+//	int int_1 = 0;
+//	int int_2 = 0;
+//	int d_result = 0;
+//	double d_result2 = 0;
+//
+//	cin >> int_1 >> int_2;
+//
+//	d_result = int_1 / int_2;
+//
+//	d_result2 = (double)int_1 / int_2;
+//
+//	cout << fixed << setprecision(2);
+//	cout << d_result << " " << d_result2 << endl;
+//}
+
+//--------------------------------------------------- 2016/10/17
